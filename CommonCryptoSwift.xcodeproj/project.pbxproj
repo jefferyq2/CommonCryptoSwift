@@ -13,6 +13,9 @@
 		DF3889FE1D620595006A1CFA /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3889FD1D620595006A1CFA /* Digest.swift */; };
 		DF3889FF1D620595006A1CFA /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3889FD1D620595006A1CFA /* Digest.swift */; };
 		DF388A001D620595006A1CFA /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3889FD1D620595006A1CFA /* Digest.swift */; };
+		DF388A021D621581006A1CFA /* Data+StringRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF388A011D621581006A1CFA /* Data+StringRepresentation.swift */; };
+		DF388A031D621581006A1CFA /* Data+StringRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF388A011D621581006A1CFA /* Data+StringRepresentation.swift */; };
+		DF388A041D621581006A1CFA /* Data+StringRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF388A011D621581006A1CFA /* Data+StringRepresentation.swift */; };
 		DF39DEB51D61584D005CE0B4 /* CommonCryptoSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = DF39DEB31D615838005CE0B4 /* CommonCryptoSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF39DEB61D61584D005CE0B4 /* CommonCryptoSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = DF39DEB31D615838005CE0B4 /* CommonCryptoSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF39DEB71D61584E005CE0B4 /* CommonCryptoSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = DF39DEB31D615838005CE0B4 /* CommonCryptoSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,6 +33,7 @@
 /* Begin PBXFileReference section */
 		DF3889F91D61FE6D006A1CFA /* Base32.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base32.swift; sourceTree = "<group>"; };
 		DF3889FD1D620595006A1CFA /* Digest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Digest.swift; sourceTree = "<group>"; };
+		DF388A011D621581006A1CFA /* Data+StringRepresentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+StringRepresentation.swift"; sourceTree = "<group>"; };
 		DF39DE8C1D615774005CE0B4 /* CommonCryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF39DE9A1D61578A005CE0B4 /* CommonCryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF39DEA71D615797005CE0B4 /* CommonCryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +99,7 @@
 				DF3889FD1D620595006A1CFA /* Digest.swift */,
 				DF39DEC01D616F99005CE0B4 /* HMAC.swift */,
 				DFC705DA1D61A2C300FEE862 /* Data+Bytes.swift */,
+				DF388A011D621581006A1CFA /* Data+StringRepresentation.swift */,
 				DF3889F91D61FE6D006A1CFA /* Base32.swift */,
 				DF39DEB81D6158BA005CE0B4 /* Supporting Files */,
 			);
@@ -275,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF388A021D621581006A1CFA /* Data+StringRepresentation.swift in Sources */,
 				DF39DEC11D616F99005CE0B4 /* HMAC.swift in Sources */,
 				DF3889FA1D61FE6D006A1CFA /* Base32.swift in Sources */,
 				DFC705DB1D61A2C300FEE862 /* Data+Bytes.swift in Sources */,
@@ -286,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF388A031D621581006A1CFA /* Data+StringRepresentation.swift in Sources */,
 				DF39DEC21D61757E005CE0B4 /* HMAC.swift in Sources */,
 				DF3889FB1D61FE6D006A1CFA /* Base32.swift in Sources */,
 				DFC705DC1D61A2C300FEE862 /* Data+Bytes.swift in Sources */,
@@ -297,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF388A041D621581006A1CFA /* Data+StringRepresentation.swift in Sources */,
 				DF39DEC31D61757F005CE0B4 /* HMAC.swift in Sources */,
 				DF3889FC1D61FE6D006A1CFA /* Base32.swift in Sources */,
 				DFC705DD1D61A2C300FEE862 /* Data+Bytes.swift in Sources */,
