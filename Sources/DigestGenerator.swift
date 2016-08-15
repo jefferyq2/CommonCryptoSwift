@@ -1,5 +1,5 @@
 //
-//  Digest.swift
+//  DigestGenerator.swift
 //  CommonCryptoSwift
 //
 //  Created by Chris Amanse on 15/08/2016.
