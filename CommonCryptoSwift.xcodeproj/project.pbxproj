@@ -13,6 +13,12 @@
 		DF39DEBB1D616E60005CE0B4 /* CommonCryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF39DEBA1D616E60005CE0B4 /* CommonCryptoKit.framework */; };
 		DF39DEBD1D616E76005CE0B4 /* CommonCryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF39DEBC1D616E76005CE0B4 /* CommonCryptoKit.framework */; };
 		DF39DEBF1D616E91005CE0B4 /* CommonCryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF39DEBE1D616E91005CE0B4 /* CommonCryptoKit.framework */; };
+		DF39DEC11D616F99005CE0B4 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF39DEC01D616F99005CE0B4 /* HMAC.swift */; };
+		DF39DEC21D61757E005CE0B4 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF39DEC01D616F99005CE0B4 /* HMAC.swift */; };
+		DF39DEC31D61757F005CE0B4 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF39DEC01D616F99005CE0B4 /* HMAC.swift */; };
+		DFC705DB1D61A2C300FEE862 /* Data+Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC705DA1D61A2C300FEE862 /* Data+Bytes.swift */; };
+		DFC705DC1D61A2C300FEE862 /* Data+Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC705DA1D61A2C300FEE862 /* Data+Bytes.swift */; };
+		DFC705DD1D61A2C300FEE862 /* Data+Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC705DA1D61A2C300FEE862 /* Data+Bytes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,8 @@
 		DF39DEBA1D616E60005CE0B4 /* CommonCryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonCryptoKit.framework; path = Carthage/Build/Mac/CommonCryptoKit.framework; sourceTree = "<group>"; };
 		DF39DEBC1D616E76005CE0B4 /* CommonCryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonCryptoKit.framework; path = Carthage/Build/iOS/CommonCryptoKit.framework; sourceTree = "<group>"; };
 		DF39DEBE1D616E91005CE0B4 /* CommonCryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonCryptoKit.framework; path = Carthage/Build/watchOS/CommonCryptoKit.framework; sourceTree = "<group>"; };
+		DF39DEC01D616F99005CE0B4 /* HMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMAC.swift; sourceTree = "<group>"; };
+		DFC705DA1D61A2C300FEE862 /* Data+Bytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Bytes.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,8 @@
 		DF39DEB21D615838005CE0B4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				DF39DEC01D616F99005CE0B4 /* HMAC.swift */,
+				DFC705DA1D61A2C300FEE862 /* Data+Bytes.swift */,
 				DF39DEB81D6158BA005CE0B4 /* Supporting Files */,
 			);
 			path = Sources;
@@ -194,6 +204,7 @@
 				TargetAttributes = {
 					DF39DE8B1D615774005CE0B4 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					DF39DE991D61578A005CE0B4 = {
@@ -254,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF39DEC11D616F99005CE0B4 /* HMAC.swift in Sources */,
+				DFC705DB1D61A2C300FEE862 /* Data+Bytes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF39DEC21D61757E005CE0B4 /* HMAC.swift in Sources */,
+				DFC705DC1D61A2C300FEE862 /* Data+Bytes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF39DEC31D61757F005CE0B4 /* HMAC.swift in Sources */,
+				DFC705DD1D61A2C300FEE862 /* Data+Bytes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -701,6 +718,7 @@
 				DF39DE941D615775005CE0B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF39DE9F1D61578A005CE0B4 /* Build configuration list for PBXNativeTarget "CommonCryptoSwift iOS" */ = {
 			isa = XCConfigurationList;
@@ -709,6 +727,7 @@
 				DF39DEA11D61578A005CE0B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF39DEAC1D615797005CE0B4 /* Build configuration list for PBXNativeTarget "CommonCryptoSwift watchOS" */ = {
 			isa = XCConfigurationList;
@@ -717,6 +736,7 @@
 				DF39DEAE1D615797005CE0B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
