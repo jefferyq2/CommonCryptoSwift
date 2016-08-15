@@ -30,7 +30,6 @@ public struct DigestGenerator {
     }
 }
 
-
 // Digest Algorithm
 
 public extension DigestGenerator {
