@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:CommonCryptoSwift.playground">
+   </FileRef>
+   <FileRef
       location = "container:CommonCryptoSwift.xcodeproj">
    </FileRef>
 </Workspace>
