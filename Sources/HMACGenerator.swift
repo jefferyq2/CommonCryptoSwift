@@ -12,7 +12,7 @@ import CommonCryptoKit
 public struct HMACGenerator {
     public var algorithm: HMACAlgorithm
     
-    public func authenticate(data: Data, withKey key: Data) -> Data {
+    public func generate(from data: Data, withKey key: Data) -> Data {
         let dataBytesPointer = data.unsafeBytes
         let keyBytesPointer = data.unsafeBytes
         
