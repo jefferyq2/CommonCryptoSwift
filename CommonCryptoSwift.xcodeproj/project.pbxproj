@@ -74,6 +74,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF388A061D622C3A006A1CFA /* Data Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DFC705DA1D61A2C300FEE862 /* Data+Bytes.swift */,
+				DF388A011D621581006A1CFA /* Data+StringRepresentation.swift */,
+			);
+			path = "Data Extensions";
+			sourceTree = "<group>";
+		};
+		DF388A071D622C61006A1CFA /* Encoders */ = {
+			isa = PBXGroup;
+			children = (
+				DF3889F91D61FE6D006A1CFA /* Base32.swift */,
+			);
+			path = Encoders;
+			sourceTree = "<group>";
+		};
 		DF39DE801D61574C005CE0B4 = {
 			isa = PBXGroup;
 			children = (
@@ -98,9 +115,8 @@
 			children = (
 				DF3889FD1D620595006A1CFA /* DigestGenerator.swift */,
 				DF39DEC01D616F99005CE0B4 /* HMACGenerator.swift */,
-				DFC705DA1D61A2C300FEE862 /* Data+Bytes.swift */,
-				DF388A011D621581006A1CFA /* Data+StringRepresentation.swift */,
-				DF3889F91D61FE6D006A1CFA /* Base32.swift */,
+				DF388A061D622C3A006A1CFA /* Data Extensions */,
+				DF388A071D622C61006A1CFA /* Encoders */,
 				DF39DEB81D6158BA005CE0B4 /* Supporting Files */,
 			);
 			path = Sources;
