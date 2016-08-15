@@ -10,7 +10,7 @@ import Foundation
 import CommonCryptoKit
 
 public struct HMAC {
-    public var algorithm: HMACAlgorithm = .SHA1
+    public var algorithm: HMACAlgorithm
     
     public func authenticate(data: Data, withKey key: Data) -> Data {
         let dataBytesPointer = data.unsafeBytes
@@ -23,6 +23,10 @@ public struct HMAC {
         CCHmac(algorithm.digestAlgorithm, keyBytesPointer, key.count, dataBytesPointer, data.count, resultBytesPointer)
         
         return result
+    }
+    
+    public init(algorithm: HMACAlgorithm = .SHA1) {
+        self.algorithm = algorithm
     }
 }
 
