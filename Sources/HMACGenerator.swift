@@ -14,7 +14,7 @@ public struct HMACGenerator {
     
     public func generate(from data: Data, withKey key: Data) -> Data {
         let dataBytesPointer = data.unsafeBytes
-        let keyBytesPointer = data.unsafeBytes
+        let keyBytesPointer = key.unsafeBytes
         
         var result = Data(count: Int(algorithm.digestLength))
         
