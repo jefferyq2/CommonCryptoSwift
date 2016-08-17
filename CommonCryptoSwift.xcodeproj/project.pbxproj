@@ -10,9 +10,9 @@
 		DF3889FA1D61FE6D006A1CFA /* Base32.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3889F91D61FE6D006A1CFA /* Base32.swift */; };
 		DF3889FB1D61FE6D006A1CFA /* Base32.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3889F91D61FE6D006A1CFA /* Base32.swift */; };
 		DF3889FC1D61FE6D006A1CFA /* Base32.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3889F91D61FE6D006A1CFA /* Base32.swift */; };
-		DF3889FE1D620595006A1CFA /* DigestGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3889FD1D620595006A1CFA /* DigestGenerator.swift */; };
-		DF3889FF1D620595006A1CFA /* DigestGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3889FD1D620595006A1CFA /* DigestGenerator.swift */; };
-		DF388A001D620595006A1CFA /* DigestGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3889FD1D620595006A1CFA /* DigestGenerator.swift */; };
+		DF3889FE1D620595006A1CFA /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3889FD1D620595006A1CFA /* Digest.swift */; };
+		DF3889FF1D620595006A1CFA /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3889FD1D620595006A1CFA /* Digest.swift */; };
+		DF388A001D620595006A1CFA /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3889FD1D620595006A1CFA /* Digest.swift */; };
 		DF388A021D621581006A1CFA /* Data+StringRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF388A011D621581006A1CFA /* Data+StringRepresentation.swift */; };
 		DF388A031D621581006A1CFA /* Data+StringRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF388A011D621581006A1CFA /* Data+StringRepresentation.swift */; };
 		DF388A041D621581006A1CFA /* Data+StringRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF388A011D621581006A1CFA /* Data+StringRepresentation.swift */; };
@@ -22,9 +22,9 @@
 		DF39DEBB1D616E60005CE0B4 /* CommonCryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF39DEBA1D616E60005CE0B4 /* CommonCryptoKit.framework */; };
 		DF39DEBD1D616E76005CE0B4 /* CommonCryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF39DEBC1D616E76005CE0B4 /* CommonCryptoKit.framework */; };
 		DF39DEBF1D616E91005CE0B4 /* CommonCryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF39DEBE1D616E91005CE0B4 /* CommonCryptoKit.framework */; };
-		DF39DEC11D616F99005CE0B4 /* HMACGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF39DEC01D616F99005CE0B4 /* HMACGenerator.swift */; };
-		DF39DEC21D61757E005CE0B4 /* HMACGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF39DEC01D616F99005CE0B4 /* HMACGenerator.swift */; };
-		DF39DEC31D61757F005CE0B4 /* HMACGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF39DEC01D616F99005CE0B4 /* HMACGenerator.swift */; };
+		DF39DEC11D616F99005CE0B4 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF39DEC01D616F99005CE0B4 /* HMAC.swift */; };
+		DF39DEC21D61757E005CE0B4 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF39DEC01D616F99005CE0B4 /* HMAC.swift */; };
+		DF39DEC31D61757F005CE0B4 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF39DEC01D616F99005CE0B4 /* HMAC.swift */; };
 		DFC705DB1D61A2C300FEE862 /* Data+Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC705DA1D61A2C300FEE862 /* Data+Bytes.swift */; };
 		DFC705DC1D61A2C300FEE862 /* Data+Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC705DA1D61A2C300FEE862 /* Data+Bytes.swift */; };
 		DFC705DD1D61A2C300FEE862 /* Data+Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC705DA1D61A2C300FEE862 /* Data+Bytes.swift */; };
@@ -32,7 +32,7 @@
 
 /* Begin PBXFileReference section */
 		DF3889F91D61FE6D006A1CFA /* Base32.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base32.swift; sourceTree = "<group>"; };
-		DF3889FD1D620595006A1CFA /* DigestGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigestGenerator.swift; sourceTree = "<group>"; };
+		DF3889FD1D620595006A1CFA /* Digest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Digest.swift; sourceTree = "<group>"; };
 		DF388A011D621581006A1CFA /* Data+StringRepresentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+StringRepresentation.swift"; sourceTree = "<group>"; };
 		DF39DE8C1D615774005CE0B4 /* CommonCryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF39DE9A1D61578A005CE0B4 /* CommonCryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,7 +42,7 @@
 		DF39DEBA1D616E60005CE0B4 /* CommonCryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonCryptoKit.framework; path = Carthage/Build/Mac/CommonCryptoKit.framework; sourceTree = "<group>"; };
 		DF39DEBC1D616E76005CE0B4 /* CommonCryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonCryptoKit.framework; path = Carthage/Build/iOS/CommonCryptoKit.framework; sourceTree = "<group>"; };
 		DF39DEBE1D616E91005CE0B4 /* CommonCryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonCryptoKit.framework; path = Carthage/Build/watchOS/CommonCryptoKit.framework; sourceTree = "<group>"; };
-		DF39DEC01D616F99005CE0B4 /* HMACGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMACGenerator.swift; sourceTree = "<group>"; };
+		DF39DEC01D616F99005CE0B4 /* HMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMAC.swift; sourceTree = "<group>"; };
 		DFC705DA1D61A2C300FEE862 /* Data+Bytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Bytes.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,8 +113,8 @@
 		DF39DEB21D615838005CE0B4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				DF3889FD1D620595006A1CFA /* DigestGenerator.swift */,
-				DF39DEC01D616F99005CE0B4 /* HMACGenerator.swift */,
+				DF3889FD1D620595006A1CFA /* Digest.swift */,
+				DF39DEC01D616F99005CE0B4 /* HMAC.swift */,
 				DF388A061D622C3A006A1CFA /* Data Extensions */,
 				DF388A071D622C61006A1CFA /* Encoders */,
 				DF39DEB81D6158BA005CE0B4 /* Supporting Files */,
@@ -297,10 +297,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF388A021D621581006A1CFA /* Data+StringRepresentation.swift in Sources */,
-				DF39DEC11D616F99005CE0B4 /* HMACGenerator.swift in Sources */,
+				DF39DEC11D616F99005CE0B4 /* HMAC.swift in Sources */,
 				DF3889FA1D61FE6D006A1CFA /* Base32.swift in Sources */,
 				DFC705DB1D61A2C300FEE862 /* Data+Bytes.swift in Sources */,
-				DF3889FE1D620595006A1CFA /* DigestGenerator.swift in Sources */,
+				DF3889FE1D620595006A1CFA /* Digest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,10 +309,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF388A031D621581006A1CFA /* Data+StringRepresentation.swift in Sources */,
-				DF39DEC21D61757E005CE0B4 /* HMACGenerator.swift in Sources */,
+				DF39DEC21D61757E005CE0B4 /* HMAC.swift in Sources */,
 				DF3889FB1D61FE6D006A1CFA /* Base32.swift in Sources */,
 				DFC705DC1D61A2C300FEE862 /* Data+Bytes.swift in Sources */,
-				DF3889FF1D620595006A1CFA /* DigestGenerator.swift in Sources */,
+				DF3889FF1D620595006A1CFA /* Digest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,10 +321,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF388A041D621581006A1CFA /* Data+StringRepresentation.swift in Sources */,
-				DF39DEC31D61757F005CE0B4 /* HMACGenerator.swift in Sources */,
+				DF39DEC31D61757F005CE0B4 /* HMAC.swift in Sources */,
 				DF3889FC1D61FE6D006A1CFA /* Base32.swift in Sources */,
 				DFC705DD1D61A2C300FEE862 /* Data+Bytes.swift in Sources */,
-				DF388A001D620595006A1CFA /* DigestGenerator.swift in Sources */,
+				DF388A001D620595006A1CFA /* Digest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
