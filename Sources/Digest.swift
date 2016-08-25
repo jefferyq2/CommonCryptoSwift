@@ -30,7 +30,7 @@ public struct Digest {
 
 public extension Digest {
     public struct Algorithm {
-        public var digest: (UnsafePointer<Void>, CC_LONG, UnsafeMutablePointer<UInt8>) -> UnsafeMutablePointer<UInt8>!
+        public var digest: (UnsafeRawPointer, CC_LONG, UnsafeMutablePointer<UInt8>) -> UnsafeMutablePointer<UInt8>!
         public var digestLength: Int32
     }
 }
